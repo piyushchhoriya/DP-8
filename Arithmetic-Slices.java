@@ -55,7 +55,7 @@ class Solution {
 As we are just looking through the previous value we can optimize it instead of the dp array we can store the previous value in a 
 variable and refer to it.
 Time Complexity : O(n)
-Space Complexity : O(1)
+Space Complexity : O(1) -> here we are not using an extra space
 
 class Solution {
     public int numberOfArithmeticSlices(int[] nums) {
